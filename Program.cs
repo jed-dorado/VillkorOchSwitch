@@ -36,8 +36,8 @@ switch (temp)
     case int n when (n >= 20 && n <= 30):
         Console.WriteLine("Det är varmt");
         break;
-    case int n when (n > 30):
-        Console.WriteLine("Det är vulkan");
+    case int n when (n > 30 && n <= 40):
+        Console.WriteLine("Det är ganska varmt");
         break;
     case int n when (n > 40):
         Console.WriteLine("det är frågan om det är dags att uppsöka en kyl att sova i");
