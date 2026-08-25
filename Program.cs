@@ -28,7 +28,7 @@ int temp = int.Parse(Console.ReadLine());
 switch (temp)
     {
     case int n when (n <= 0):
-        Console.WriteLine("Det är frost");
+        Console.WriteLine("Det är frost men jag ska iaf tillbringa vintrarna i Thailand");
         break;
     case int n when (n >= 0 && n <= 20):
         Console.WriteLine("Lite kyligt");
