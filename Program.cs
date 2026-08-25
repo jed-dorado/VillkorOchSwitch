@@ -37,7 +37,7 @@ switch (temp)
         Console.WriteLine("Det är varmt");
         break;
     case int n when (n > 30):
-        Console.WriteLine("Det är vulkanvarmt");
+        Console.WriteLine("Det är vulkan");
         break;
 
 }
